@@ -1,0 +1,76 @@
+.find-someone {
+	position: relative;
+	margin-right: 7px;
+}
+
+.find-someone-input {
+	width: 100%;
+}
+
+.find-someone-result-wrapper {
+	position: absolute;
+	display: none;
+	z-index: 1000;
+	width: 100%;
+}
+
+.find-someone-result {
+	margin-top: 5px;
+	margin-right: -8px;
+
+	background: #ffffff;
+	border: 1px solid #a0a0a0;
+
+	padding: 5px;
+	padding-bottom: 5px;
+	box-shadow: 0 0 5px #888888;
+}
+
+.find-someone-result h1 {
+	margin: 0;
+	background: #0F5168;
+	color: #ffffff;
+	font-size: 15px;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+.find-someone-loading {
+	margin: 0;
+	color: #a0a0a0;
+	font-size: 15px;
+	padding: 5px;
+}
+
+.find-someone-result-entry {
+	margin-left: -5px;
+	margin-right: -5px;
+	height: 50px;
+	position: relative;
+	cursor: pointer;
+}
+
+.find-someone-result-entry:hover {
+	background: #f0f0f0;
+}
+
+.find-someone-result-entry img {
+	left: 5px;
+	top: 5px;
+	position: absolute;
+	height: 40px;
+	width: 40px;
+}
+
+.find-someone-result-name {
+	top: 7px;
+	left: 55px;
+	position: absolute;
+}
+
+.find-someone-result-info {
+	top: 26px;
+	left: 55px;
+	position: absolute;
+	color: #c0c0c0;
+}
