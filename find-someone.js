@@ -20,5 +20,10 @@ jQuery(function($) {
 
 			last=val;
 		});
+
+		$('.find-someone-result').on("click",".find-someone-result-entry",function() {
+			window.location = $(this).find("a").attr("href"); 
+			return false;
+  		});
 	});
 });
